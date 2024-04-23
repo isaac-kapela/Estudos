@@ -2,7 +2,7 @@
 lista = [1,2,3,4,5,6,7,8,9,10]
 
 # adicionando um elemento ao array
-lista.push("e o brazino", "jogo da galera")
+lista.push("Manzambi", "kapela")
 # adicionando um elemento ao array
 lista << "oiii"
 
