@@ -1,0 +1,163 @@
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: blue;
+  border-radius: 5px;
+}
+
+section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img-sec img {
+  width: 100%;
+  display: block;
+  height: 400px;
+}
+
+main {
+  display: flex;
+  flex-direction: column; 
+}
+
+.imgs-principal {
+  width: 100%; 
+  padding: 20px; 
+}
+
+.imgs-principal div {
+  margin-bottom: 20px; 
+}
+
+.lista-img {
+  padding: 20px; 
+}
+
+.lista-img ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lista-img ul h2 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.lista-img ul img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.lista-img div {
+  margin-top: 20px;
+}
+
+
+.div-1 img,
+.div-2 img,
+.div-3 img,
+.div-4 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img-sec img {
+  width: 100%;
+  display: block;
+  height: 400px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+main section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+main section div {
+  width: 25%;
+  text-align: center;
+}
+
+main section div img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.lista-img {
+  background-color: rgb(58, 4, 4);
+}
+.lista-img div ul img {
+  width: 55%;
+  margin-bottom: 20px;
+}
+
+.section-texto{
+    background-color: rgb(44, 2, 2);
+
+}
