@@ -7,7 +7,13 @@ body {
   list-style: none;
   text-decoration: none;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  list-style: none;
+}
 header {
   background-color: #333;
   color: #fff;
@@ -178,6 +184,28 @@ main section div img {
 .textoP {
   text-align: justify;
   width: 550px;
+}
+.section-texto {
+  background-color: rgb(44, 2, 2);
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.section-div {
+  flex: 1;
+  max-width: 60%;
+}
+
+.tres-section {
+  width: 35%;
+}
+
+.tres-section ul li a {
+  line-height: 2.5;
 }
 
 footer {
