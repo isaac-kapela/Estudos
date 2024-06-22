@@ -1,3 +1,4 @@
+html,
 body {
     height: 100%;
     margin: 0;
@@ -70,21 +71,7 @@ main {
 }
 
 .imgs-principal div {
-    display: flex;
-    align-items: center;
     margin-bottom: 20px;
-}
-
-.imgs-principal div img {
-    flex-shrink: 0;
-    width: 40%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.imgs-principal div .text-content {
-    flex-grow: 1;
-    padding-left: 20px;
 }
 
 .lista-img {
@@ -94,7 +81,7 @@ main {
     background-color: #f4f4f4;
 }
 
-.lista-img > div {
+.lista-img>div {
     flex: 1;
     padding: 10px;
 }
@@ -111,13 +98,12 @@ main {
     margin-right: 20px;
     margin-bottom: 30px;
 }
-
-.item2 img {
+.item2 img{
     width: 600px;
     height: 250px;
 }
 
-.item2 p {
+.item2 p{
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
@@ -139,6 +125,17 @@ main {
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-sec img {
+    width: 100%;
+    display: block;
+    height: 400px;
 }
 
 main {
@@ -178,12 +175,7 @@ main section div img {
 .section-texto {
     background-color: rgb(44, 2, 2);
 }
-.texto{
-    width: 600px;
-}
-.texto1{
-    width: 100px;
-}
+
 footer {
     background-color: #0e0000;
     color: #fff;
