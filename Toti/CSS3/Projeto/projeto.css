@@ -8,18 +8,32 @@ body {
 header {
     background-color: #333;
     padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 70px; /* Ajuste este valor conforme necessário */
+}
+
+nav {
+    flex-grow: 1;
+    height: 50px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; 
     margin: 0;
     padding: 0;
+    padding-right: 50px; 
 }
 
 nav ul li {
     margin: 0 15px;
+    text-align: center;
+    line-height: 50px;
 }
 
 nav ul li a {
@@ -28,7 +42,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-.intro {
+.introducao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +52,7 @@ nav ul li a {
     position: relative;
 }
 
-.profile {
+.perfil {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,25 +63,25 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.profile-pic {
+.foto-perfil {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
-.profile h1 {
+.perfil h1 {
     font-size: 2em;
     margin: 0.5em 0;
 }
 
-.profile h2 {
+.perfil h2 {
     font-size: 1.5em;
     margin: 0.5em 0;
     color: #666;
 }
 
-.profile p {
+.perfil p {
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.6;
@@ -88,13 +102,13 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-.formacao-item, .experiencia-item {
+.item-formacao, .item-experiencia {
     display: flex;
     align-items: center;
     margin: 20px 0;
 }
 
-.year {
+.ano {
     font-size: 1.2em;
     font-weight: bold;
     margin-right: 20px;
@@ -102,16 +116,16 @@ nav ul li a {
     text-align: right;
 }
 
-.details {
+.detalhes {
     text-align: left;
 }
 
-.details h3 {
+.detalhes h3 {
     margin: 0;
     font-size: 1.5em;
 }
 
-.details p {
+.detalhes p {
     margin: 5px 0 0;
     color: #666;
 }
@@ -121,13 +135,13 @@ nav ul li a {
     color: #fff;
 }
 
-.projetos-container {
+.container-projetos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.projeto-item {
+.item-projeto {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -138,7 +152,7 @@ nav ul li a {
     text-align: left;
 }
 
-.projeto-img {
+.imagem-projeto {
     width: 100%;
     height: 150px;
     background-color: #ccc;
@@ -151,30 +165,30 @@ nav ul li a {
     color: #fff;
 }
 
-.contato-container {
+.container-contato {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 
-.contato-info {
+.informacoes-contato {
     max-width: 300px;
     text-align: left;
     margin-right: 50px;
 }
 
-.contato-info p {
+.informacoes-contato p {
     margin-bottom: 20px;
 }
 
-.social-icons {
+.icones-sociais {
     display: flex;
     justify-content: space-between;
     max-width: 200px;
 }
 
-.social-icon {
+.icone-social {
     width: 50px;
     height: 50px;
     background-color: #444;
@@ -185,17 +199,17 @@ nav ul li a {
     color: #fff;
 }
 
-.contato-form {
+.formulario-contato {
     max-width: 400px;
     text-align: left;
 }
 
-.contato-form label {
+.formulario-contato label {
     display: block;
     margin-bottom: 5px;
 }
 
-.contato-form input, .contato-form textarea {
+.formulario-contato input, .formulario-contato textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -203,7 +217,7 @@ nav ul li a {
     border-radius: 5px;
 }
 
-.contato-form button {
+.formulario-contato button {
     padding: 10px 20px;
     background-color: #444;
     border: none;
@@ -213,6 +227,6 @@ nav ul li a {
     cursor: pointer;
 }
 
-.contato-form button:hover {
+.formulario-contato button:hover {
     background-color: #666;
 }
