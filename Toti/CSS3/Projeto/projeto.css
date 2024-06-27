@@ -83,7 +83,6 @@ nav ul li a:hover {
   padding: 50px 20px;
   background-color: #f2f2f2;
   position: relative;
-
 }
 
 /* .perfil {
@@ -183,7 +182,6 @@ nav ul li a:hover {
 .contato {
   padding: 50px 20px;
   text-align: center;
-
 }
 
 .formacao {
@@ -361,4 +359,100 @@ nav ul li a:hover {
 
 .formulario-contato button:hover {
   background-color: #666;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .logo {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  nav ul li a {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .introducao {
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+
+  .texto,
+  .perfil {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .texto p,
+  .perfil p {
+    max-width: 90%;
+  }
+
+  .foto-perfil {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+  }
+
+  .icones-sociais .icone-social,
+  .icones-perfil .icone-social {
+    margin: 0 8px;
+  }
+
+  .icone-social img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .icon-img {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .item-formacao,
+  .item-experiencia {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+    margin-left: 20px;
+  }
+
+  .ano {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .formacao h2,
+  .experiencia h2,
+  .projetos h2,
+  .contato h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+
+  .detalhes h3 {
+    font-size: 1.3em;
+  }
+
+  .detalhes p {
+    font-size: 0.9em;
+  }
 }
