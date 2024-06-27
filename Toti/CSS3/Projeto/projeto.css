@@ -208,7 +208,6 @@ nav ul li a:hover {
   font-size: 1.2em;
   font-weight: bold;
   margin-right: 20px;
-  flex: 0 0 150px;
   text-align: right;
 }
 
@@ -430,29 +429,53 @@ nav ul li a:hover {
   .item-formacao,
   .item-experiencia {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin: 20px 0;
-    margin-left: 20px;
+  }
+
+  .item-formacao,
+  .item-experiencia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
   .ano {
-    text-align: left;
-    margin-bottom: 10px;
+    order: -1;
+    margin-right: 10px;
+    margin-left: 0;
   }
 
-  .formacao h2,
-  .experiencia h2,
-  .projetos h2,
-  .contato h2 {
-    font-size: 1.5em;
-    margin-bottom: 15px;
+  .detalhes h3 p {
+    font-size: 16px;
+    font-weight: 100;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-contato {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .detalhes h3 {
-    font-size: 1.3em;
+  .informacoes-contato,
+  .formulario-contato {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 
-  .detalhes p {
-    font-size: 0.9em;
+  .icones-sociais {
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 90px;
   }
+
+  .icone-social:last-child {
+    margin-right: 0;
+  }
+}
+
+.informacoes-contato p{
+  text-align: center;
 }
