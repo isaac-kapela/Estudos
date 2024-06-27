@@ -474,8 +474,11 @@ nav ul li a:hover {
   .icone-social:last-child {
     margin-right: 0;
   }
+
+  .informacoes-contato p{
+    text-align: center;
+  }
 }
 
-.informacoes-contato p{
-  text-align: center;
-}
+
+
