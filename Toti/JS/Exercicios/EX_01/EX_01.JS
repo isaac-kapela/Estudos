@@ -11,11 +11,14 @@ function coletarDados() {
     console.log("Email: " + email);
     console.log("Cidade: " + cidade);
 
-    document.getElementById("dadosUsuario").innerHTML = `
+    const novaEntrada = `
         <p><strong>Nome:</strong> ${nome}</p>
         <p><strong>Sobrenome:</strong> ${sobrenome}</p>
         <p><strong>Idade:</strong> ${idade}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Cidade:</strong> ${cidade}</p>
+        <hr>
     `;
+
+    document.getElementById("dadosUsuario").innerHTML += novaEntrada;
 }
