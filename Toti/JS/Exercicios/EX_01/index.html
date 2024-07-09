@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Função prompt e Obter dados do usuário</h1>
+    <button onclick="coletarDados()">Coletar Dados</button>
+
+    <script>
+        function coletarDados() {
+            const nome = prompt("Digite seu nome:");
+            const sobrenome = prompt("Digite seu sobrenome:");
+            const idade = prompt("Digite sua idade:");
+            const email = prompt("Digite seu email:");
+
+            console.log("Nome: " + nome);
+            console.log("Sobrenome: " + sobrenome);
+            console.log("Idade: " + idade);
+            console.log("Email: " + email);
+
+            document.getElementById("dadosUsuario").innerHTML = `
+        <p><strong>Nome:</strong> ${nome}</p>
+        <p><strong>Sobrenome:</strong> ${sobrenome}</p>
+        <p><strong>Idade:</strong> ${idade}</p>
+        <p><strong>Email:</strong> ${email}</p>
+    `;
+        }
+    </script>
+
+    <div id="dadosUsuario"></div>
+
+</body>
+
+</html>
