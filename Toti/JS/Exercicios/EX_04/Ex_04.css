@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 55px;
+    margin-top: 1px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 30px; 
+    width: auto; 
+    max-width: 1000px;
+}
+
+input, button {
+    padding: 15px 20px;
+}
+
+
+#dadosUsuario, .comparacao {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -23px 18px 23px 14px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.dadosUsuario {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.comparacao {
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+@media (max-width: 480px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #dadosUsuario, .comparacao {
+        padding: 15px;
+    }
+}
