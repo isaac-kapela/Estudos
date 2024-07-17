@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coletor de dados</title>
+    <link rel="stylesheet" href="./Ex_04.css">
+</head>
+<body>
+    <h1>Coletor de dados</h1>
+    <form id="formulario" onsubmit="coletarDados(event)">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="text" id="sobrenome" placeholder="Sobrenome" required>
+        <input type="number" id="idade" placeholder="Idade" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="cidade" placeholder="Cidade" required>
+        <button type="submit">Coletar Dados</button>
+    </form>
+    <div id="dadosUsuario"></div>
+    <div id="comparacao"></div>
+
+    <script src="./Ex_04.js"></script>
+</body>
+</html>
