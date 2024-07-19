@@ -62,6 +62,6 @@ function compararDados() {
         <div class="comparacao">
             <h2>Comparações</h2>
             ${comparacoesHtml}
-        </div>
+        </div>      
     `;
 }
