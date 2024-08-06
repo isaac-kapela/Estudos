@@ -1,0 +1,26 @@
+{
+  "contatos": [
+    {
+      "nome": "novo nome",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nome": "Ciclano",
+      "telefone": "9999-8888",
+      "email": " [email protected]"
+    },
+    {
+      "id": "3",
+      "nome": "Beltrano",
+      "telefone": "9999-7777",
+      "email": " [email protected]"
+    },
+    {
+      "id": 4,
+      "nome": "declano",
+      "telefone": "9999-7777",
+      "email": " [email protected]"
+    }
+  ]
+}
