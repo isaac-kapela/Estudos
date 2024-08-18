@@ -1,0 +1,16 @@
+{
+  "contatos": [
+    {
+      "id": "fcf7",
+      "nome": "Dizolele kapela",
+      "telefone": "88888888888",
+      "email": "dizolelekapela@gmail.com"
+    },
+    {
+      "id": "7be3",
+      "nome": "Dizolele kapela",
+      "telefone": "",
+      "email": "dizolelekapela@gmail.com"
+    }
+  ]
+}
