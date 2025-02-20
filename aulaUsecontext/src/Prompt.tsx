@@ -1,34 +1,27 @@
-import { useState,useRef } from "react"
+import React, { useRef, useState } from "react";
 
-function Prompt() {
-
+export default function Prompt(){
     const [entrada, setEntrada] = useState("");
     const [saida, setSaida] = useState("");
-    const refInput = useRef<HTMLInputElement|null>(null);
+    const refInput = useRef<HTMLInputElement | null>(null);
 
-
-    function onEntradaChange(e: React.ChangeEvent<HTMLInputElement>) {
-
-        setEntrada(e.target.value);
-       // e.target.select();
+    function onEntradaChange(e:React.ChangeEvent<HTMLInputElement>){
+        setEntrada(e.target.value)
     }
 
-    function onExecutarClick(){
+    function onExecutarClique(){
         setSaida(entrada);
         if(!refInput.current) return;
         refInput.current.select();
-
     }
+
     return (
         <>
-            <div>
-                <input  ref={refInput} value={entrada} onChange={onEntradaChange}></input>
-                <button onClick={onExecutarClick}>Executar</button>
-                <p>{saida}</p>
-            </div>
-
+        <div>
+            <input ref={refInput} value={entrada} onChange={onEntradaChange} />
+            <button onClick={onExecutarClique}>Executar</button>
+            <p>{saida}</p>
+        </div>
         </>
-    )
+    );
 }
-
-export default Prompt
