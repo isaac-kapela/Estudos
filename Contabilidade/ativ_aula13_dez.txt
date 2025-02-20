@@ -1,0 +1,94 @@
+
+## Respostas das Questões e Desenvolvimento do Caso
+
+### Questões Objetivas
+
+**Questão 1:**Resposta: **C) O patrimônio**.
+
+**Questão 2:**Resposta: **C) é uma característica qualitativa que permite que os usuários identifiquem e compreendam similaridades dos itens e diferenças entre eles e não significa necessariamente uniformidade.**
+
+**Questão 3:**Resposta: **D) um recurso econômico presente controlado pela entidade como resultado de eventos passados. Esse recurso econômico é um direito que tem o potencial de produzir benefícios econômicos.**
+
+---
+
+### Questão 7: Desenvolvimento Contábil
+
+#### **1. Razonetes**
+
+| **Conta**                     | **Débito (R$)** | **Crédito (R$)** |
+| ----------------------------- | ---------------- | ----------------- |
+| **Caixa**                     | 100.000          | 45.000            |
+| **Banco**                     | 130.000          | 60.000            |
+| **Terreno para investimento** | 70.000           | 0                 |
+| **Estoques**                  | 40.000           | 0                 |
+| **Maquinário**                | 30.000           | 0                 |
+| **Software**                  | 5.000            | 0                 |
+| **Empréstimos a pagar**       | 100.000          | 0                 |
+| **Duplicatas a pagar**        | 30.000           | 30.000            |
+| **Capital Social**            | 0                | 190.000           |
+
+#### **2. Lançamentos Contábeis**
+
+**1. Compra de estoque de R$ 40.000:**D - Estoques (Ativo Circulante) ...................... R$ 40.000C - Caixa (Ativo Circulante) ........................... R$ 20.000C - Fornecedores (Passivo Circulante) .............. R$ 10.000C - Fornecedores (Passivo Não Circulante) .......... R$ 10.000
+
+**2. Realização de empréstimo de R$ 100.000:**D - Banco (Ativo Circulante) .......................... R$ 100.000C - Empréstimos a pagar (Passivo Não Circulante) .. R$ 100.000
+
+**3. Pagamento de dívidas exigíveis dentro do ano:**D - Duplicatas a pagar (Passivo Circulante) .......... R$ 30.000C - Banco (Ativo Circulante) .......................... R$ 30.000
+
+**4. Compra de maquinário por R$ 30.000:**D - Maquinário (Ativo Não Circulante) .............. R$ 30.000C - Banco (Ativo Circulante) .......................... R$ 30.000
+
+**5. Compra de software por R$ 5.000:**D - Software (Ativo Não Circulante) ................. R$ 5.000C - Caixa (Ativo Circulante) ............................ R$ 5.000
+
+#### **3. Balancete de Verificação**
+
+| **Conta**                 | **Débito (R$)** | **Crédito (R$)** |
+| ------------------------- | ---------------- | ----------------- |
+| Caixa                     | 75.000           |                   |
+| Banco                     | 130.000          |                   |
+| Terreno para investimento | 70.000           |                   |
+| Estoques                  | 40.000           |                   |
+| Maquinário                | 30.000           |                   |
+| Software                  | 5.000            |                   |
+| Duplicatas a pagar        |                  | 10.000            |
+| Fornecedores              |                  | 20.000            |
+| Empréstimos a pagar       |                  | 100.000           |
+| Capital Social            |                  | 190.000           |
+| **Totais**                | **350.000**      | **350.000**       |
+
+#### **4. Balanço Patrimonial**
+
+**Ativo:**
+
+| **Ativo Circulante**       | **R$**     |
+| -------------------------- | ----------- |
+| Caixa                      | 75.000      |
+| Banco                      | 130.000     |
+| Estoques                   | 40.000      |
+| **Total Ativo Circulante** | **245.000** |
+
+| **Ativo Não Circulante**       | **R$**     |
+| ------------------------------ | ----------- |
+| Terreno para investimento      | 70.000      |
+| Maquinário                     | 30.000      |
+| Software                       | 5.000       |
+| **Total Ativo Não Circulante** | **105.000** |
+| **Total do Ativo**             | **350.000** |
+
+**Passivo e Patrimônio Líquido:**
+
+| **Passivo Circulante**       | **R$**    |
+| ---------------------------- | ---------- |
+| Fornecedores                 | 10.000     |
+| **Total Passivo Circulante** | **10.000** |
+
+| **Passivo Não Circulante**       | **R$**     |
+| -------------------------------- | ----------- |
+| Fornecedores                     | 10.000      |
+| Empréstimos a pagar              | 100.000     |
+| **Total Passivo Não Circulante** | **110.000** |
+
+| **Patrimônio Líquido**       | **R$**     |
+| ---------------------------- | ----------- |
+| Capital Social               | 190.000     |
+| **Total Patrimônio Líquido** | **190.000** |
+| **Total do Passivo e PL**    | **350.000** |

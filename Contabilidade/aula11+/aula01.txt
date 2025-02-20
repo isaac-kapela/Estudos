@@ -1,0 +1,3 @@
+contas e resultados: são as contas de receitas e despesas. são utilixadas para a apurção do resultado do exercicio
+
+ativos, passivos e patrimonio liquido, que referem á posição financeira da entidade que reporta 
