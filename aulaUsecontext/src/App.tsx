@@ -7,6 +7,7 @@ function App() {
   const [estadoContador, setEstadoContador] = useState(0);
   let variavelContador = 0;
   const refContador = useRef(0);
+  const [posicao, setPosicao] = useState({x:150, y:75});
 
   return (
     <>
@@ -16,7 +17,7 @@ function App() {
     </div>
 
     <div>
-      <Tela></Tela>
+      <Tela posicao={posicao}></Tela>
     </div>
 
       <div>
