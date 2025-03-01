@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+div {
+  text-align: center;
+  background-color: black;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+canvas {
+  border: 1px solid white;
+  display: block;
+  margin: auto;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+p {
+  color: white;
+  margin-top: 10px;
+}
