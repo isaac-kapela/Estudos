@@ -49,7 +49,7 @@ export default function App() {
 
   return (
     <div>
-      <h2>Jogo de Exploração</h2>
+      
       <canvas
         ref={canvasRef}
         width={600}
